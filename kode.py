@@ -47,7 +47,7 @@ if asu == "ex":
    sys.exit()
 elif asu == "wait":
      subprocess.call("php load.php",shell=True)
-     subprocess.call("python spam.py",shell=True)
+     subprocess.call("python kode.py",shell=True)
 else:
     print ("\033[1;91mWrong Input!!\033[1;97m")
     sys.exit()
